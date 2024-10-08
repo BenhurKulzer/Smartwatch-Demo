@@ -40,6 +40,7 @@ android {
 
 dependencies {
     implementation(project(":shared"))
+    implementation("androidx.compose.material:material-icons-extended:<latest-version>")
     implementation("androidx.navigation:navigation-compose:2.8.2")
     implementation(projects.shared)
     implementation(libs.compose.ui)
